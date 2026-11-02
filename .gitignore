@@ -13,8 +13,8 @@ playwright-report/
 public/motion-graphics/
 
 # Local working output: screenshots, design docs, references
+# (profile/ is NOT ignored: src/components/HeroPortrait.astro imports profile.svg at build time)
 output/
 .artifacts/
 context/
-profile/
 reference-file/
